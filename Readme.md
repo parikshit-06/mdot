@@ -1,8 +1,6 @@
 # mdot
 
 [![PyPI version](https://img.shields.io/pypi/v/mdot.svg)](https://pypi.org/project/mdot/)
-[![License](https://img.shields.io/pypi/l/mdot.svg)](https://github.com/parikshit-06/mdot/blob/main/License)
-[![Python Versions](https://img.shields.io/pypi/pyversions/mdot.svg)](https://pypi.org/project/mdot/)
 
 > *"Talk in dots and dashes like it’s 1844."*  
 ---
