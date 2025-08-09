@@ -1,0 +1,55 @@
+# dot-dash
+> *"Talk in dots and dashes like it’s 1844."*  
+---
+
+A lightweight **CLI tool** to encode and decode Morse code - because typing `.... . .-.. .-.. ---` is just cooler than typing “hello”.  
+
+---
+
+## Install
+
+```bash
+pip install dot-dash
+````
+
+---
+
+## Usage
+
+**Encode Text → Morse**
+
+```bash
+dot-dash --encode "HELLO WORLD"
+# .... . .-.. .-.. --- / .-- --- .-. .-.. -..
+```
+
+**Decode Morse → Text**
+
+```bash
+dot-dash --decode ".... . .-.. .-.. ---"
+# HELLO
+```
+
+---
+
+## Features
+
+* Encode text into Morse code
+* Decode Morse code back into text
+* No internet required - works entirely offline
+* Simple & lightweight (less than 100 lines of code)
+
+---
+
+## Contributing
+
+PRs are welcome!
+If you’d like to add sound output, file support, or even ASCII flashing lights - go wild.
+
+---
+
+## License
+
+[MIT License](LICENSE) - free to use, modify, and share.
+
+---
