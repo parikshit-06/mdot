@@ -1,4 +1,4 @@
-# dot-dash
+# mdot
 > *"Talk in dots and dashes like it’s 1844."*  
 ---
 
@@ -9,7 +9,7 @@ A lightweight **CLI tool** to encode and decode Morse code - because typing `...
 ## Install
 
 ```bash
-pip install dot-dash
+pip install mdot
 ````
 
 ---
@@ -19,14 +19,14 @@ pip install dot-dash
 **Encode Text → Morse**
 
 ```bash
-dot-dash --encode "HELLO WORLD"
+mdot --encode "HELLO WORLD"
 # .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 ```
 
 **Decode Morse → Text**
 
 ```bash
-dot-dash --decode ".... . .-.. .-.. ---"
+mdot --decode ".... . .-.. .-.. ---"
 # HELLO
 ```
 
